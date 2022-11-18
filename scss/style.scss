@@ -1,0 +1,311 @@
+body {
+    font-family: "Montserrat";
+}
+
+/* NAVBAR ------------------------------------------------ */
+
+.navbar {
+    background-color: #fff !important;
+    padding-top: 41px !important;
+    padding-bottom: 41px !important;
+}
+.navbar-toggler {
+    border: none;
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+.navbar-nav {
+    @media (max-width: 992px) {
+        padding-top: 20px;
+    }
+}
+
+.navbar-nav li a {
+    color: #646667;
+}
+
+.nav-item-img {
+    padding-left: 10px;
+}
+
+/* MAIN SECTION ------------------------------------------------ */
+
+.main-section__img {
+    width: 100%;
+    min-height: 270px;
+    object-fit: cover;
+    object-position: 25% 50%;
+}
+
+.main-section__text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: calc(36 / 20 * 100%);
+    text-align: center;
+    color: #646667;
+    margin-bottom: 46px;
+    padding: 20px 5px;
+
+    @media (min-width: 992px) {
+        padding: 48px 100px 0;
+    }
+
+    @media (max-width: 500px) {
+        font-size: 18px;
+    }
+}
+
+.main-section__btn {
+    padding: 20px 32px;
+}
+
+.btn-primary {
+    background-color: #007397;
+    border-radius: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 100%;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+/* INVESTORS ------------------------------------------------ */
+
+.page__investors {
+    padding-top: 150px;
+
+    @media (max-width: 1200px) {
+        padding-top: 120px;
+    }
+    @media (max-width: 992px) {
+        padding-top: 100px;
+    }
+    @media (max-width: 767px) {
+        padding-top: 60px;
+    }
+}
+.investors__text {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: calc(36 / 20 * 100%);
+    color: #646667;
+    margin-bottom: 100px;
+    @media (min-width: 992px) {
+        width: 50%;
+    }
+    @media (max-width: 767px) {
+        margin-bottom: 60px;
+    }
+    @media (max-width: 380px) {
+        font-size: 18px;
+    }
+}
+.investors__list {
+    list-style-type: none;
+    padding: 0;
+}
+.investors__name {
+    flex: 0 1 20%;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(32 / 16 * 100%);
+    text-align: center;
+    color: #aec3d4;
+    margin-bottom: 48px;
+
+    @media (max-width: 992px) {
+        flex: 0 1 33.333%;
+    }
+
+    @media (max-width: 530px) {
+        flex: 0 1 50%;
+    }
+
+    @media (max-width: 380px) {
+        flex: 0 1 100%;
+    }
+}
+.investors__button {
+    padding: 20px 80px;
+    align-self: flex-start;
+    @media (max-width: 767px) {
+        align-self: center;
+    }
+}
+
+/* TABS ------------------------------------------------ */
+
+.nav-pills {
+    display: flex;
+    justify-content: flex-end;
+
+    button {
+        @media (max-width: 365px) {
+            padding: 7px;
+        }
+    }
+}
+
+.nav-link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: calc(16 / 16 * 100%);
+    text-align: center;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #d3cfce;
+}
+.active {
+    color: #007397 !important;
+    background-color: transparent !important;
+}
+
+.tabs {
+    padding: 100px 0 0 0;
+
+    @media (max-width: 767px) {
+        padding: 50px 0 0 0;
+    }
+}
+
+.tabs-card {
+    min-width: 310px;
+    margin-bottom: 30px;
+}
+
+.press-release {
+    .tabs-card__image {
+        background: url("../img/tabs/img01.jpg") no-repeat;
+        background-size: cover;
+    }
+}
+.news {
+    .tabs-card__image {
+        background: url("../img/tabs/img02.jpg") center no-repeat;
+        background-size: cover;
+    }
+}
+
+.all {
+    .tabs-card {
+        &:first-child {
+            .tabs-card__image {
+                background: url("../img/tabs/img01.jpg") center no-repeat;
+                background-size: cover;
+            }
+        }
+        &:last-child {
+            .tabs-card__image {
+                background: url("../img/tabs/img02.jpg") center no-repeat;
+                background-size: cover;
+            }
+        }
+    }
+
+    .tabs-card__image {
+        background: url("../img/tabs/img03.jpg") center no-repeat;
+        background-size: cover;
+    }
+}
+
+.tabs-card__image {
+    min-height: 370px;
+    padding: 24px 30px 77px;
+}
+
+.tabs-card__type {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: calc(16 / 12 * 100%);
+    letter-spacing: 0.75px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.tabs-card__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: calc(32 / 24 * 100%);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.tabs-card__content {
+    padding-top: 32px;
+}
+.tabs-card__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: calc(32 / 16 * 100%);
+    color: #646667;
+    margin-bottom: 32px;
+}
+.tabs-card__button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #007397;
+}
+
+/* MAP --------------------------------------------------- */
+
+.map {
+    iframe {
+        min-width: 100%;
+        max-width: 100%;
+        height: 450px;
+
+        @media (max-width: 767px) {
+            height: 300px;
+        }
+    }
+}
+
+/* FOOTER --------------------------------------------------- */
+
+.footer {
+    padding: 44px 0;
+}
+.footer__container {
+    @media (max-width: 390px) {
+        flex-direction: column;
+    }
+}
+.footer__name {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: calc(40 / 12 * 100%);
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #646667;
+}
+.footer__list {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding: 0;
+
+    @media (max-width: 500px) {
+        flex-direction: column;
+    }
+
+    li {
+        @media (min-width: 500px) {
+            &:not(:last-child) {
+                margin-right: 25px;
+            }
+        }
+    }
+
+    a {
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 40px;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        color: #646667;
+    }
+}

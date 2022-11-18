@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+        <link
+            href="https://fonts.googleapis.com/css?family=Montserrat:300,regular,700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css?family=PT+Serif:regular,700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./css/style.css" />
+    </head>
+    <body>
+        <nav
+            class="navbar navbar-expand-lg navbar-light bg-light"
+            aria-label="Fifth navbar example"
+        >
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./img/header/logo.svg" alt="" />
+                </a>
+                <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarsExample05"
+                    aria-controls="navbarsExample05"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
+                >
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarsExample05">
+                    <ul
+                        class="navbar-nav me-auto mb-2 mb-lg-0 align-items-center"
+                    >
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Investors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">About Us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Our Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">News & Media</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link">Career</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"
+                                >Our Locations
+                                <img
+                                    class="nav-item-img"
+                                    src="./img/header/nav-icon.svg"
+                                    alt=""
+                            /></a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <main class="page">
+            <section class="page__main-section main-section">
+                <div class="container d-flex flex-column align-items-center">
+                    <img class="main-section__img" src="./img/bg.jpg" alt="" />
+                    <p class="main-section__text">
+                        We’re a group of companies within the credit management
+                        services industry. We are primarily focusing on large
+                        and high growth NPL markets, and have operations in
+                        Spain, Italy, Germany, Norway and Sweden. We have an
+                        ambitious Pan-European growth strategy and are
+                        continuously exploring new markets in Europe.
+                    </p>
+
+                    <button
+                        type="button"
+                        class="main-section__btn btn btn-primary"
+                    >
+                        Annual General Meeting 2017
+                    </button>
+                </div>
+            </section>
+
+            <section class="page__investors investors">
+                <div class="container investors__container d-flex flex-column">
+                    <div class="investors__text">
+                        We’re Investor Relations team is striving to serve all
+                        shareholders and potential investors by providing
+                        consistent, open and timely disclosure of relevant
+                        information.
+                    </div>
+
+                    <ul
+                        class="investors__list d-flex justify-content-between flex-wrap"
+                    >
+                        <li class="investors__name">Share Price (NOK)</li>
+                        <li class="investors__name">Last Change</li>
+                        <li class="investors__name">Volume (thousands)</li>
+                        <li class="investors__name">Ticker (Oslo Bors)</li>
+                        <li class="investors__name">Market Cap (NOK M)</li>
+                    </ul>
+
+                    <button
+                        type="button"
+                        class="investors__button btn btn-primary"
+                    >
+                        Read More
+                    </button>
+                </div>
+            </section>
+
+            <section class="page__tabs tabs">
+                <div class="container tabs__container">
+                    <ul
+                        class="nav nav-pills mb-3"
+                        id="pills-tab"
+                        role="tablist"
+                    >
+                        <li class="nav-item" role="presentation">
+                            <button
+                                class="nav-link active"
+                                id="pills-home-tab"
+                                data-bs-toggle="pill"
+                                data-bs-target="#pills-press-release"
+                                type="button"
+                                role="tab"
+                                aria-controls="pills-home"
+                                aria-selected="true"
+                            >
+                                Press release
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button
+                                class="nav-link"
+                                id="pills-profile-tab"
+                                data-bs-toggle="pill"
+                                data-bs-target="#pills-news-release"
+                                type="button"
+                                role="tab"
+                                aria-controls="pills-profile"
+                                aria-selected="false"
+                            >
+                                News
+                            </button>
+                        </li>
+                        <li class="nav-item" role="presentation">
+                            <button
+                                class="nav-link"
+                                id="pills-contact-tab"
+                                data-bs-toggle="pill"
+                                data-bs-target="#pills-all"
+                                type="button"
+                                role="tab"
+                                aria-controls="pills-contact"
+                                aria-selected="false"
+                            >
+                                All
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="tab-content" id="pills-tabContent">
+                        <div
+                            class="tab-pane fade show active"
+                            id="pills-press-release"
+                            role="tabpanel"
+                            aria-labelledby="pills-press-release-tab"
+                            tabindex="0"
+                        >
+                            <div class="row tabs__row press-release">
+                                <div class="col tabs-card">
+                                    <div
+                                        class="tabs-card__image d-flex flex-column justify-content-between"
+                                    >
+                                        <div class="tabs-card__type">
+                                            Press Release
+                                        </div>
+                                        <h3 class="tabs-card__title">
+                                            increases existing loan facilities
+                                        </h3>
+                                    </div>
+                                    <div class="tabs-card__content">
+                                        <div class="tabs-card__text">
+                                            On May 5, 2017 the 4th tranche under
+                                            the Recurring Credit Facility which
+                                            has with DNB Bank ASA and Nordea
+                                            Bank AS was made available to the
+                                            company.
+                                        </div>
+                                        <a href="#" class="tabs-card__button"
+                                            >Read More</a
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="col tabs-card">
+                                    <div
+                                        class="tabs-card__image d-flex flex-column justify-content-between"
+                                    >
+                                        <div class="tabs-card__type">
+                                            Press Release
+                                        </div>
+                                        <h3 class="tabs-card__title">
+                                            increases existing loan facilities
+                                        </h3>
+                                    </div>
+                                    <div class="tabs-card__content">
+                                        <div class="tabs-card__text">
+                                            On May 5, 2017 the 4th tranche under
+                                            the Recurring Credit Facility which
+                                            has with DNB Bank ASA and Nordea
+                                            Bank AS was made available to the
+                                            company.
+                                        </div>
+                                        <a href="#" class="tabs-card__button"
+                                            >Read More</a
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="col tabs-card">
+                                    <div
+                                        class="tabs-card__image d-flex flex-column justify-content-between"
+                                    >
+                                        <div class="tabs-card__type">
+                                            Press Release
+                                        </div>
+                                        <h3 class="tabs-card__title">
+                                            increases existing loan facilities
+                                        </h3>
+                                    </div>
+                                    <div class="tabs-card__content">
+                                        <div class="tabs-card__text">
+                                            On May 5, 2017 the 4th tranche under
+                                            the Recurring Credit Facility which
+                                            has with DNB Bank ASA and Nordea
+                                            Bank AS was made available to the
+                                            company.
+                                        </div>
+                                        <a href="#" class="tabs-card__button"
+                                            >Read More</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="tab-pane fade"
+                            id="pills-news-release"
+                            role="tabpanel"
+                            aria-labelledby="pills-news-release-tab"
+                            tabindex="0"
+                        >
+                            <div class="row tabs__row news">
+                                <div class="col tabs-card">
+                                    <div
+                                        class="tabs-card__image d-flex flex-column justify-content-between"
+                                    >
+                                        <div class="tabs-card__type">News</div>
+                                        <h3 class="tabs-card__title">
+                                            acquires another primary portfolio
+                                            in spain
+                                        </h3>
+                                    </div>
+                                    <div class="tabs-card__content">
+                                        <div class="tabs-card__text">
+                                            On May 5, 2017 the 4th tranche under
+                                            the Recurring Credit Facility which
+                                            has with DNB Bank ASA and Nordea
+                                            Bank AS was made available to the
+                                            company.
+                                        </div>
+                                        <a href="#" class="tabs-card__button"
+                                            >Read More</a
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="col tabs-card">
+                                    <div
+                                        class="tabs-card__image d-flex flex-column justify-content-between"
+                                    >
+                                        <div class="tabs-card__type">News</div>
+                                        <h3 class="tabs-card__title">
+                                            acquires another primary portfolio
+                                            in spain
+                                        </h3>
+                                    </div>
+                                    <div class="tabs-card__content">
+                                        <div class="tabs-card__text">
+                                            On May 5, 2017 the 4th tranche under
+                                            the Recurring Credit Facility which
+                                            has with DNB Bank ASA and Nordea
+                                            Bank AS was made available to the
+                                            company.
+                                        </div>
+                                        <a href="#" class="tabs-card__button"
+                                            >Read More</a
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="col tabs-card">
+                                    <div
+                                        class="tabs-card__image d-flex flex-column justify-content-between"
+                                    >
+                                        <div class="tabs-card__type">News</div>
+                                        <h3 class="tabs-card__title">
+                                            acquires another primary portfolio
+                                            in spain
+                                        </h3>
+                                    </div>
+                                    <div class="tabs-card__content">
+                                        <div class="tabs-card__text">
+                                            On May 5, 2017 the 4th tranche under
+                                            the Recurring Credit Facility which
+                                            has with DNB Bank ASA and Nordea
+                                            Bank AS was made available to the
+                                            company.
+                                        </div>
+                                        <a href="#" class="tabs-card__button"
+                                            >Read More</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div
+                            class="tab-pane fade"
+                            id="pills-all"
+                            role="tabpanel"
+                            aria-labelledby="pills-all-tab"
+                            tabindex="0"
+                        >
+                            <div class="row tabs__row all">
+                                <div class="col tabs-card">
+                                    <div
+                                        class="tabs-card__image d-flex flex-column justify-content-between"
+                                    >
+                                        <div class="tabs-card__type">News</div>
+                                        <h3 class="tabs-card__title">
+                                            acquires another primary portfolio
+                                            in spain
+                                        </h3>
+                                    </div>
+                                    <div class="tabs-card__content">
+                                        <div class="tabs-card__text">
+                                            On May 5, 2017 the 4th tranche under
+                                            the Recurring Credit Facility which
+                                            has with DNB Bank ASA and Nordea
+                                            Bank AS was made available to the
+                                            company.
+                                        </div>
+                                        <a href="#" class="tabs-card__button"
+                                            >Read More</a
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="col tabs-card">
+                                    <div
+                                        class="tabs-card__image d-flex flex-column justify-content-between"
+                                    >
+                                        <div class="tabs-card__type">
+                                            press release
+                                        </div>
+                                        <h3 class="tabs-card__title">
+                                            increases existing loan facilities
+                                        </h3>
+                                    </div>
+                                    <div class="tabs-card__content">
+                                        <div class="tabs-card__text">
+                                            On May 5, 2017 the 4th tranche under
+                                            the Recurring Credit Facility which
+                                            has with DNB Bank ASA and Nordea
+                                            Bank AS was made available to the
+                                            company.
+                                        </div>
+                                        <a href="#" class="tabs-card__button"
+                                            >Read More</a
+                                        >
+                                    </div>
+                                </div>
+
+                                <div class="col tabs-card">
+                                    <div
+                                        class="tabs-card__image d-flex flex-column justify-content-between"
+                                    >
+                                        <div class="tabs-card__type">News</div>
+                                        <h3 class="tabs-card__title">
+                                            acquires another primary portfolio
+                                            in spain
+                                        </h3>
+                                    </div>
+                                    <div class="tabs-card__content">
+                                        <div class="tabs-card__text">
+                                            On May 5, 2017 the 4th tranche under
+                                            the Recurring Credit Facility which
+                                            has with DNB Bank ASA and Nordea
+                                            Bank AS was made available to the
+                                            company.
+                                        </div>
+                                        <a href="#" class="tabs-card__button"
+                                            >Read More</a
+                                        >
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="page__map map">
+                <div class="container map__container">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d15093973.421171548!2d21.382322738150364!3d48.76021263824679!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sru!2str!4v1663933695652!5m2!1sru!2str"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    ></iframe>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <div
+                class="container footer__container d-flex align-items-center justify-content-between"
+            >
+                <div class="footer__name">Business 2017</div>
+                <div class="footer__links">
+                    <ul class="footer__list d-flex align-items-center">
+                        <li><a href="#">Terms & Conditions</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
